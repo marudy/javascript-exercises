@@ -1,5 +1,9 @@
 /*
  * Choose from below the version you prefer to use!
+ *
+ * USAGE TIP: If you want to supply as input argument an array, call the function using 
+ * the apply() method of any function object.
+ * Invocation example: add.apply(null, [1, 2]);
  */
 
 function add(input) {
@@ -17,7 +21,7 @@ function add(input) {
   }
 }
 
-// New version of add() function that utilizes array methodforEach()
+// New version of add(input) function that utilizes array methodforEach()
 function add(input) {
   var sum = 0;
   
